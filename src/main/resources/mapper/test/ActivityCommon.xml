@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ly.dao.test.ActivityCommonMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ly.bean.test.ActivityCommon">
+        <id column="acid" property="acid" />
+        <result column="activity_number" property="activityNumber" />
+        <result column="activity_title" property="activityTitle" />
+        <result column="activity_type" property="activityType" />
+        <result column="activity_plat" property="activityPlat" />
+        <result column="activity_model" property="activityModel" />
+        <result column="activity_tag" property="activityTag" />
+        <result column="activity_code" property="activityCode" />
+        <result column="activity_detail" property="activityDetail" />
+        <result column="share_detail" property="shareDetail" />
+        <result column="thumbnail" property="thumbnail" />
+        <result column="templateStyle" property="templateStyle" />
+        <result column="market_rights" property="marketRights" />
+        <result column="business_number" property="businessNumber" />
+        <result column="release_status" property="releaseStatus" />
+        <result column="goods_number" property="goodsNumber" />
+        <result column="remark" property="remark" />
+        <result column="rowstatus" property="rowstatus" />
+        <result column="create_time" property="createTime" />
+        <result column="create_by" property="createBy" />
+        <result column="update_time" property="updateTime" />
+        <result column="update_by" property="updateBy" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        acid, activity_number, activity_title, activity_type, activity_plat, activity_model, activity_tag, activity_code, activity_detail, share_detail, thumbnail, templateStyle, market_rights, business_number, release_status, goods_number, remark, rowstatus, create_time, create_by, update_time, update_by
+    </sql>
+
+</mapper>
