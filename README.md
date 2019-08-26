@@ -1,18 +1,17 @@
-#学习参考
+# 学习参考
 ------
-###mybatis-plus文档地址：
-https://mp.baomidou.com/guide/generator.html#%E6%B7%BB%E5%8A%A0%E4%BE%9D%E8%B5%96
-------
-##官方
+## mybatisplus文档地址：
+https://mp.baomidou.com/guide/generator.html
+
+## 官方
 https://baomidou.gitee.io/mybatis-plus-doc/
 
 ------
-##比较全面的参考
+## 比较全面的参考
 https://gitee.com/baomidou/mybatisplus-boot-starter
 
-
 ------
-###Mybatis-plus SQL注入的原理
+## Mybatis-plus SQL注入的原理
 https://my.oschina.net/u/3574106/blog/2222591
 
 
@@ -30,7 +29,7 @@ pagehelper:
 ```
 
 
-###PageHelper分页代码
+## PageHelper分页代码
 ```python
 @GetMapping("/allhelper")
 	@ResponseBody
