@@ -5,9 +5,16 @@
 https://mp.baomidou.com/guide/generator.html#%E6%B7%BB%E5%8A%A0%E4%BE%9D%E8%B5%96
 ##官方
 https://baomidou.gitee.io/mybatis-plus-doc/#/generic-crud?id=%E6%B3%A8%E8%A7%A3%E8%AF%B4%E6%98%8E
+##比较全面的参考
+https://gitee.com/baomidou/mybatisplus-boot-starter
+
+
 
 ###Mybatis-plus SQL注入的原理
 https://my.oschina.net/u/3574106/blog/2222591
+
+
+
 
 ###集成PageHelper做分页
 
@@ -35,4 +42,6 @@ pagehelper:
 		
 	}
 ```
+
+
 
